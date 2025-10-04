@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Interactivo - Prueba</title>
+  <style>
+    svg {
+      width: 600px;
+      height: 400px;
+      border: 1px solid #ccc;
+    }
+    .room {
+      fill: #e0e0e0;
+      stroke: #333;
+      stroke-width: 1px;
+      cursor: pointer;
+    }
+    .room:hover {
+      fill: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mapa Interactivo de Prueba</h1>
+  <svg id="map"></svg>
+
+  <!-- Librerías -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+  <!-- Tu script -->
+  <script src="script.js"></script>
+</body>
+</html>
