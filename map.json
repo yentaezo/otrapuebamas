@@ -1,0 +1,31 @@
+{
+  "type": "Topology",
+  "objects": {
+    "rooms": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "arcs": [[0]],
+          "properties": { "name": "Aula 1", "link": "aula1.html" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1]],
+          "properties": { "name": "Aula 2", "link": "aula2.html" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[2]],
+          "properties": { "name": "Aula 3", "link": "aula3.html" }
+        }
+      ]
+    }
+  },
+  "arcs": [
+    [[100,100],[200,0],[0,100],[-200,0],[0,-100]],
+    [[300,100],[200,0],[0,100],[-200,0],[0,-100]],
+    [[500,100],[200,0],[0,100],[-200,0],[0,-100]]
+  ],
+  "transform": { "scale": [1,1], "translate": [0,0] }
+}
