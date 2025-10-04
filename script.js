@@ -1,6 +1,6 @@
 const svg = d3.select("#map");
-const width = 600;
-const height = 400;
+const width = 2000;
+const height = 2000;
 
 // Cargar el archivo TopoJSON
 d3.json("map.json").then(function(data) {
@@ -22,3 +22,4 @@ d3.json("map.json").then(function(data) {
       // window.location.href = d.properties.link;
     });
 });
+
