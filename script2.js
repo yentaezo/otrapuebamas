@@ -1,6 +1,3 @@
-import "./lib/d3.v7.js";
-import "./lib/topojson-client.js";
-
 const CANVAS = {
     w: 1000,
     h: 1000
