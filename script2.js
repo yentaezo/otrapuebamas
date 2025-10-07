@@ -7,7 +7,7 @@ const CANVAS = {
 };
 
 const data = await d3
-    .json(`./one_bedroom.json`)
+    .json(`./prueba2.json`)
     .catch(e => console.error(e.name));
 
 // Create an empty object for storing data
